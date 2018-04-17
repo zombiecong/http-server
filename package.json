@@ -1,11 +1,11 @@
 {
-  "name": "http-server",
-  "version": "0.11.1",
-  "description": "A simple zero-configuration command-line http server",
+  "name": "httpsserver",
+  "version": "0.0.1",
+  "description": "A simple zero-configuration command-line https server",
   "main": "./lib/http-server",
   "repository": {
     "type": "git",
-    "url": "git://github.com/indexzero/http-server.git"
+    "url": "git://github.com/zombiecong/http-server.git"
   },
   "keywords": [
     "cli",
@@ -63,6 +63,10 @@
     {
       "name": "BigBlueHat",
       "email": "byoung@bigbluehat.com"
+    },
+    {
+      "name": "cc",
+      "email": "zombiecong@gmail.com"
     }
   ],
   "dependencies": {
@@ -72,6 +76,7 @@
     "http-proxy": "^1.8.1",
     "opener": "~1.4.0",
     "optimist": "0.6.x",
+    "pem": "^1.12.5",
     "portfinder": "^1.0.13",
     "union": "~0.4.3"
   },
@@ -81,12 +86,12 @@
     "vows": "0.7.x"
   },
   "bugs": {
-    "url": "https://github.com/nodeapps/http-server/issues"
+    "url": "https://github.com/zombiecong/http-server/issues"
   },
   "license": "MIT",
   "preferGlobal": "true",
   "bin": {
-    "http-server": "./bin/http-server",
-    "hs": "./bin/http-server"
+    "httpsserver": "./bin/http-server",
+    "hss": "./bin/http-server"
   }
 }
