@@ -1,6 +1,6 @@
 {
-  "name": "httpsserver",
-  "version": "0.0.1",
+  "name": "http-server-ssl",
+  "version": "0.0.3",
   "description": "A simple zero-configuration command-line https server",
   "main": "./lib/http-server",
   "repository": {
@@ -78,7 +78,7 @@
     "optimist": "0.6.x",
     "pem": "^1.12.5",
     "portfinder": "^1.0.13",
-    "union": "~0.4.3"
+    "union-ssl": "0.0.1"
   },
   "devDependencies": {
     "common-style": "^3.0.0",
@@ -91,7 +91,7 @@
   "license": "MIT",
   "preferGlobal": "true",
   "bin": {
-    "httpsserver": "./bin/http-server",
+    "http-server-ssl": "./bin/http-server",
     "hss": "./bin/http-server"
   }
 }
