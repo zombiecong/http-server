@@ -1,19 +1,19 @@
 {
   "name": "http-server-ssl",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "A simple zero-configuration command-line https server",
-  "main": "./lib/http-server",
+  "main": "./lib/http-server-ssl",
   "repository": {
     "type": "git",
-    "url": "git://github.com/zombiecong/http-server.git"
+    "url": "git://github.com/zombiecong/http-server-ssl.git"
   },
   "keywords": [
     "cli",
     "command"
   ],
   "scripts": {
-    "start": "node ./bin/http-server",
-    "pretest": "common bin/http-server lib/ test",
+    "start": "node ./bin/http-server-ssl",
+    "pretest": "common bin/http-server-ssl lib/ test",
     "test": "vows --spec --isolate"
   },
   "files": [
@@ -86,12 +86,12 @@
     "vows": "0.7.x"
   },
   "bugs": {
-    "url": "https://github.com/zombiecong/http-server/issues"
+    "url": "https://github.com/zombiecong/http-server-ssl/issues"
   },
   "license": "MIT",
   "preferGlobal": "true",
   "bin": {
-    "http-server-ssl": "./bin/http-server",
-    "hss": "./bin/http-server"
+    "http-server-ssl": "./bin/http-server-ssl",
+    "hss": "./bin/http-server-ssl"
   }
 }
